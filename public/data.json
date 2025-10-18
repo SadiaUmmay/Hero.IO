@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://img.icons8.com/color/96/spotify--v1.png",
+    "title": "MusicFlow",
+    "companyName": "Wave Studios",
+    "id": 1,
+    "description": "Stream and download millions of songs with personalized playlists and offline mode.",
+    "size": 45,
+    "reviews": 12000,
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 6400 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/96/heart-with-pulse.pnghttps://img.icons8.com/color/96/heart-with-pulse.png",
+    "title": "FitTrack",
+    "companyName": "ActiveLife Co.",
+    "id": 2,
+    "description": "Track workouts, monitor calories, and stay motivated with your personal fitness assistant.",
+    "size": 38,
+    "reviews": 8500,
+    "ratingAvg": 4.3,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 3600 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/96/chat.png",
+    "title": "TaskMate",
+    "companyName": "ProTime Labs",
+    "id": 3,
+    "description": "Organize your daily tasks, set reminders, and collaborate with teams efficiently.",
+    "size": 25,
+    "reviews": 4200,
+    "ratingAvg": 4.1,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 850 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 1450 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/96/to-do.png",
+    "title": "SnapArt",
+    "companyName": "PixelPro",
+    "id": 4,
+    "description": "Edit photos like a pro with AI-powered filters and one-tap retouching tools.",
+    "size": 52,
+    "reviews": 15500,
+    "ratingAvg": 4.8,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 9900 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/96/airplane-take-off.png",
+    "title": "Langify",
+    "companyName": "LinguaTech",
+    "id": 5,
+    "description": "Learn languages through fun quizzes, interactive lessons, and real-time conversation.",
+    "size": 40,
+    "reviews": 9800,
+    "ratingAvg": 4.5,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 5700 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/96/source-code.png",
+    "title": "FinMate",
+    "companyName": "BudgetEase",
+    "id": 6,
+    "description": "Manage your expenses, set savings goals, and track spending trends effortlessly.",
+    "size": 32,
+    "reviews": 6100,
+    "ratingAvg": 4.4,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 850 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 2600 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/96/news.png",
+    "title": "ReadWise",
+    "companyName": "SmartReads Inc.",
+    "id": 7,
+    "description": "Get personalized book recommendations and summaries from top-rated authors.",
+    "size": 29,
+    "reviews": 7800,
+    "ratingAvg": 4.7,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 4650 }
+    ]
+  },
+  {
+    "image":"https://img.icons8.com/color/96/chat.png",
+    "title": "TravelGo",
+    "companyName": "Skyway Global",
+    "id": 8,
+    "description": "Book flights, hotels, and rental cars at the best prices worldwide.",
+    "size": 58,
+    "reviews": 20000,
+    "ratingAvg": 4.3,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1700 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 4600 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/96/exercise.png",
+    "title": "MedicNow",
+    "companyName": "HealthLink Labs",
+    "id": 9,
+    "description": "Book doctor appointments and access instant health consultations anytime.",
+    "size": 37,
+    "reviews": 5300,
+    "ratingAvg": 4.2,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 1900 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/96/gallery.png",
+    "title": "Foodora",
+    "companyName": "QuickBite",
+    "id": 10,
+    "description": "Order from your favorite restaurants and get food delivered fast to your doorstep.",
+    "size": 49,
+    "reviews": 25000,
+    "ratingAvg": 4.6,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 13000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/96/chat.png",
+    "title": "CineMate",
+    "companyName": "StreamWorks",
+    "id": 11,
+    "description": "Watch and download movies and series in HD quality with personalized recommendations.",
+    "size": 75,
+    "reviews": 31000,
+    "ratingAvg": 4.7,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 20300 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/96/joystick.png",
+    "title": "Chatly",
+    "companyName": "CometTalk",
+    "id": 12,
+    "description": "Stay connected with your friends and family with instant messages and voice calls.",
+    "size": 34,
+    "reviews": 18500,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 4700 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/96/open-book--v1.png",
+    "title": "GameMaster",
+    "companyName": "NextPlay Studios",
+    "id": 13,
+    "description": "Discover trending mobile games, watch live streams, and earn rewards while playing.",
+    "size": 62,
+    "reviews": 9200,
+    "ratingAvg": 4.4,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 3600 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/96/airplane-take-off.png",
+    "title": "Shoply",
+    "companyName": "EcomHub",
+    "id": 14,
+    "description": "Shop from thousands of brands and enjoy same-day delivery and secure payments.",
+    "size": 53,
+    "reviews": 27000,
+    "ratingAvg": 4.6,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 1300 },
+      { "name": "2 star", "count": 1700 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "5 star", "count": 14700 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/96/youtube-play.png",
+    "title": "StudySmart",
+    "companyName": "EduCore Labs",
+    "id": 15,
+    "description": "Access online courses, quizzes, and interactive materials to boost your learning.",
+    "size": 44,
+    "reviews": 7200,
+    "ratingAvg": 4.3,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 2900 }
+    ]
+  }
+]

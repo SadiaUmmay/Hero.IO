@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Github, Menu, MenuIcon, X } from 'lucide-react';
 import logo from '../../assets/logo.png'
+import { NavLink } from 'react-router';
+import './Nav.css'
 const Nav = () => {
     const [open, setOpen] = useState(true)
     return (
@@ -16,9 +18,9 @@ const Nav = () => {
                 <ul className={`md:hidden absolute duration-1000
             ${open ? "-top-40" : "top-18"}
               `}>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="apps">Apps</a></li>
-                    <li><a href="install">Installation</a></li>
+                    <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="apps">Apps</NavLink></li>
+                <li><NavLink to="install">Installation</NavLink></li>
                 </ul>
 
             </span>
@@ -29,9 +31,9 @@ const Nav = () => {
             </a>
            
             <ul className='md:flex gap-10 hidden mr-100 font-semibold'>
-                <li><a href="/">Home</a></li>
-                <li><a href="apps">Apps</a></li>
-                <li><a href="install">Installation</a></li>
+                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="apps">Apps</NavLink></li>
+                <li><NavLink to="install">Installation</NavLink></li>
             </ul>
 
 

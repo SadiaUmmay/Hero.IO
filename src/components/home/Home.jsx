@@ -1,6 +1,8 @@
 import { AppWindow } from 'lucide-react';
 import React from 'react';
 import heroPic from '../../assets/hero.png'
+import Apps from './apps';
+
 const Home = () => {
     return (
         <div className='bg-gray-50 md:py-10 py-4 mt-2'>
@@ -25,8 +27,8 @@ const Home = () => {
             </div>
            </div>
            {/* status section  */}
-           <div className='bg-linear-to-r from-indigo-500 to-purple-500 text-white p-5'>
-            <h1 className='text-2xl md:6xl text-center font-semibold'>Trusted by Millions, Built for You</h1>
+           <div className='bg-linear-to-r from-indigo-500 to-purple-500 text-white py-20 p-5'>
+            <h1 className='text-2xl md:text-4xl mb-10 text-center font-semibold'>Trusted by Millions, Built for You</h1>
             <div className='flex flex-col md:flex-row justify-center gap-10 font-semibold my-5'>
                 <div className='text-center'>
                     <p className='text-sm font-normal'>Total Downloads</p>
@@ -45,6 +47,21 @@ const Home = () => {
                 </div>
             </div>
            </div>
+           {/* app section  */}
+           <section>
+            <div className='text-center my-4 md:my-15'>
+                <h1 className='text-2xl md:text-4xl my-3 text-black font-bold'>Trending Apps</h1>
+                <p className='text-gray-700'>Explore All Trending Apps on the Market developed by us</p>
+            </div>
+            <Apps></Apps>
+           </section>
+           {/* show all button  */}
+           <a  href="apps" className='flex justify-center mt-10'>
+          <button  className="btn px-4 bg-linear-to-r from-indigo-500 to-purple-500 text-white">
+              
+              Show All
+            </button>
+            </a>
         </div>
     );
 };
