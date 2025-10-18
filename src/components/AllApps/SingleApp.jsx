@@ -4,8 +4,9 @@ import { Link } from 'react-router';
 
 const SingleApp = ({app}) => {
     return (
+        
         <div className='bg-white shadow-2xl rounded-xl'>
-             <Link to={`/apps/${app.id}`}>
+            <Link to={`/apps/${app.id}`}>
             <img className='w-[275px] mx-auto bg-gray-200 mt-4 rounded-xl' src={app.image} alt="" />
             <div className='flex p-2 gap-1 font-semibold'>
                 <p>{app.title} : </p>
@@ -23,6 +24,7 @@ const SingleApp = ({app}) => {
             </div>
             </Link>
         </div>
+       
     );
 };
 
