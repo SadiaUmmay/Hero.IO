@@ -6,7 +6,7 @@ import './Nav.css'
 const Nav = () => {
     const [open, setOpen] = useState(true)
     return (
-        <div className='flex justify-between mx-10 mt-6 text-black items-center'>
+        <div className='flex justify-between mx-2 md:mx-10 mt-6 text-black items-center'>
             
             <span className='flex gap-3 ' onClick={() => setOpen(!open)}>
 
