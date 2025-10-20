@@ -29,5 +29,5 @@ This project demonstrates dynamic routing, loading states, error handling, and i
 ---
 
 ##  Live Link
-
+https://app-explorer-hero.netlify.app/
 
