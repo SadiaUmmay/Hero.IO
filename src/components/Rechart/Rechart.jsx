@@ -1,32 +1,15 @@
 import React from 'react';
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer
-} from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 const Rechart = ({ ratings }) => {
-  if (!ratings) return null;
+  if (!ratings || !Array.isArray(ratings)) return null;
 
   return (
-    <div className="max-w-3xl md:max-w-7xl  my-6  ">
-      
-      <div style={{ width: '', height: 300 }}>
-        <ResponsiveContainer >
-          <BarChart
-            data={ratings}
-            layout="vertical"
-           
-          >
-            
-            <XAxis type="number"
-            axisLine={false}
-            tickLine={false} />
-            
+    <div className="max-w-3xl md:max-w-7xl my-6">
+      <div style={{ width: '100%', height: 300 }}>
+        <ResponsiveContainer>
+          <BarChart data={ratings} layout="vertical">
+            <XAxis type="number" axisLine={false} tickLine={false} />
             <YAxis
               type="category"
               dataKey="name"
@@ -37,7 +20,7 @@ const Rechart = ({ ratings }) => {
               tickLine={false}
             />
             <Tooltip formatter={(value) => value.toLocaleString()} />
-            <Bar dataKey="count" fill="#FFA500" /> 
+            <Bar dataKey="count" fill="#FFA500" />
           </BarChart>
         </ResponsiveContainer>
       </div>

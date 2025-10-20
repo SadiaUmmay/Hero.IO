@@ -1,9 +1,8 @@
 import React from 'react';
-import AllAppsMap from './AllApssMap';
 import SearchApp from './SearchApp';
 
 
-const Apps = () => {
+const AllApps = () => {
 
     return (
         <div className='max-w-xl md:max-w-7xl mx-auto'>
@@ -19,4 +18,4 @@ const Apps = () => {
     );
 };
 
-export default Apps;
+export default AllApps;
